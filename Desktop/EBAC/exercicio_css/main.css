@@ -1,0 +1,58 @@
+h1 {
+    color: blue;
+    margin: 0;
+    text-align: center;
+}
+h2 {
+    color:green
+}
+
+* {
+    box-sizing: border-box;
+    border: 0;
+    padding:0;
+
+}
+
+.horizontal-list {
+    display:flex;
+    list-style-type: none;
+    padding: 0%;
+    margin: 20px;
+    margin-right: 20px;
+    margin-left: 50px;
+    justify-content: center;
+
+
+} 
+
+.horizontal-list li {
+    margin-right: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+.horizontal-list li a {
+    text-decoration: none;
+    color: brown;
+}
+
+p {
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#soccer {
+    background-color: rgb(179, 255, 0);
+}
+
+#economy {
+    background-color: brown;
+}
+
+#politica {
+    background-color: aqua;
+}
+
+#aviacao {
+    background-color: bisque;
+}
